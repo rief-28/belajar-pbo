@@ -42,4 +42,8 @@ foreach ($data as $m) {
 }
 
 fclose($out);
+<<<<<<< HEAD
 exit;
+=======
+exit;
+>>>>>>> a07b881d899ba883ca94831fddbc13a2b48d7cc1
