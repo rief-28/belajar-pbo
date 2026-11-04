@@ -40,6 +40,3 @@ Menerapkan **private property**, **getter**, **method perubahan tervalidasi**, d
 - **Read:** `DataMahasiswa::semua()` → loop tabel → getter.
 - **Update:** klik Edit → `DataMahasiswa::cari(NIM)` → form terisi → POST `aksi=ubah` → `cari(NIM)` mengambil object lama → `ubahProfil()` memvalidasi dan mengubah → `DataMahasiswa::ubah()`.
 - **Delete:** POST `aksi=hapus` → `DataMahasiswa::hapus(NIM)` → session diperbarui.
-
-## Catatan untuk dosen
-Contoh ini fokus pada **enkapsulasi**, bukan overloading. Magic method `__get()`/`__set()` tidak digunakan karena getter dan method domain eksplisit lebih mudah dipahami. Untuk produksi, diperlukan database, autentikasi, otorisasi, dan pengelolaan session yang lebih lengkap.
