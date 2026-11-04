@@ -17,8 +17,6 @@ Repositori ini berisi tugas dan catatan belajar mata kuliah Pemrograman Berbasis
 | Constructor | Mengisi nilai awal atribut saat objek dibuat |
 | Encapsulation | Mengatur akses atribut dengan public, protected, dan private |
 | Inheritance | Mewarisi atribut dan method dari class induk |
-| Polymorphism | Satu method dengan perilaku berbeda pada class berbeda |
-| Abstract Class dan Interface | Mendefinisikan kerangka yang harus diikuti class turunan |
 
 ## Struktur Folder
 
