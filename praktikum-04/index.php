@@ -171,6 +171,23 @@
                     grid-template-columns:1fr
                 }
             }
+            .success{
+                background:#1e7d4a
+            }
+            .success:hover{
+                background:#165f38
+            }
+            .panel-header{
+                display:flex;
+                align-items:center;
+                justify-content:space-between;
+                flex-wrap:wrap;
+                gap:10px;
+                margin-bottom:16px
+            }
+            .panel-header h2{
+                margin:0
+            }
         </style>
     </head>
     <body>
@@ -223,7 +240,12 @@
         </form>
         </section>
         <section class="panel">
-            <h2>Daftar Mahasiswa (<?= count($repo->semua()) ?>)</h2>
+            <div class="panel-header">
+                <h2>Daftar Mahasiswa (<?= count($repo->semua()) ?>)</h2>
+                <?php if ($repo->semua()): ?>
+                <a class="btn success" href="export.php">&#8595; Export CSV</a>
+                <?php endif; ?>
+            </div>
             <div class="scroll">
                 <table>
                     <thead>
