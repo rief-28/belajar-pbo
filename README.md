@@ -22,10 +22,11 @@ Repositori ini berisi tugas dan catatan belajar mata kuliah Pemrograman Berbasis
 
 ```
 belajar-pbo/
-├── OOP/     Class dan Objek
+├── OOP/              Class dan Objek
 ├── praktikum-04/     Konstruktor,destruktor dan Overloading
 ├── Praktikum-5/      Enkapsulasi
-└── README.md
+├── INHERITANCE/      Pewarisan
+└── README.md         Dokumentasi
 ```
 
 ## Cara Menjalankan
