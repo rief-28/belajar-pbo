@@ -4,7 +4,7 @@ Repositori ini berisi tugas dan catatan belajar mata kuliah Pemrograman Berbasis
 
 ## Tentang Repositori
 
-- Penulis: Muhammad Aief P.M
+- Penulis: Muhammad Arief P.M
 - Program studi: Teknik Informatika, Universitas Muhammadiyah Sukabumi
 - Isi: latihan kode, tugas kuliah, dan catatan pembelajaran PBO
 - Tujuan: mendokumentasikan proses belajar dan menyimpan kode agar mudah dibuka kembali
@@ -22,23 +22,26 @@ Repositori ini berisi tugas dan catatan belajar mata kuliah Pemrograman Berbasis
 
 ```
 belajar-pbo/
-├── OOP/              Class dan Objek
-├── praktikum-04/     Konstruktor,destruktor dan Overloading
-├── Praktikum-5/      Enkapsulasi
-├── INHERITANCE/      Pewarisan
-└── README.md         Dokumentasi
+├── oop/               Class dan Objek
+├── praktikum-04/      Konstruktor, destruktor dan Overloading
+├── praktikum-5/       Enkapsulasi
+├── INHERITANCE/       Inheritance dan CRUD dengan PHP Session
+├── expense_tracker/   Aplikasi pencatat pengeluaran (PHP OOP, SQLite)
+└── README.md
 ```
+
+Nama folder di atas memakai huruf besar dan kecil yang sama dengan isi repositori. Ketik persis seperti itu di alamat browser.
 
 ## Cara Menjalankan
 
 Kebutuhan:
 
-- XAMPP dengan PHP 8 atau lebih baru
+- XAMPP dengan PHP 8.1 atau lebih baru
 - Git
 
 Langkah:
 
-1. Buka XAMPP Control Panel. Klik Start pada Apache. Klik Start pada MySQL jika tugas memakai database.
+1. Buka XAMPP Control Panel. Klik Start pada Apache. MySQL tidak perlu dinyalakan karena tidak ada tugas yang memakainya.
 
 2. Clone repositori ke folder htdocs.
 
@@ -53,15 +56,23 @@ git clone https://github.com/rief-28/belajar-pbo.git
 http://localhost/belajar-pbo/nama-folder/
 ```
 
+Contoh: `http://localhost/belajar-pbo/expense_tracker/`
+
+### Catatan untuk expense_tracker
+
+- Memakai database SQLite, bukan MySQL. Berkas database dibuat otomatis saat halaman pertama dibuka.
+- Butuh ekstensi PHP `pdo_sqlite` dan `mbstring`. Di XAMPP keduanya biasanya sudah aktif. Bila belum, halaman menampilkan pesan yang menyebut ekstensinya.
+- Langkah lengkap, cara menjalankan dengan server bawaan PHP, dan cara menjalankan tes ada di [expense_tracker/README.md](expense_tracker/README.md).
+
 ## Daftar Tugas
 
-| No | Tugas | Status |
-| --- | --- | --- |
-| 1 | OOP | Selesai |
-| 2 | Konstruktor,destruktor dan Overloading | Selesai |
-| 3 | Enkapsulasi | Selesai |
-| 4 | Inheritance | Selesai |
-| 5 | UTS_Mini Project | Soon |
+| No | Tugas | Folder | Status |
+| --- | --- | --- | --- |
+| 1 | OOP | [oop](oop/) | Selesai |
+| 2 | Konstruktor, destruktor dan Overloading | [praktikum-04](praktikum-04/) | Selesai |
+| 3 | Enkapsulasi | [praktikum-5](praktikum-5/) | Selesai |
+| 4 | Inheritance | [INHERITANCE](INHERITANCE/) | Selesai |
+| 5 | Expense Tracker | [expense_tracker](expense_tracker/) | Selesai |
 
 ## Catatan
 
