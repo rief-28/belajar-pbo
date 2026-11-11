@@ -1,0 +1,9 @@
+# Untuk Apache dengan DocumentRoot di folder proyek ini.
+# Hanya index.php dan public/ yang boleh diakses dari luar.
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^(src|config|views|database|docs|tests)(/|$) - [F,L]
+    RewriteRule ^(bootstrap\.php|router\.php|README\.md)$ - [F,L]
+</IfModule>

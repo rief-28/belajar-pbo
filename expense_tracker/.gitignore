@@ -1,0 +1,10 @@
+# Database lokal (berisi data pengguna)
+database/*.sqlite
+database/*.sqlite-wal
+database/*.sqlite-shm
+database/*.db
+
+.env
+.DS_Store
+.idea/
+.vscode/
