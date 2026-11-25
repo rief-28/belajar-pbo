@@ -84,7 +84,7 @@ Contoh: `http://localhost/belajar-pbo/expense_tracker/`
 | 3 | Enkapsulasi | [praktikum-5](praktikum-5/) | Selesai |
 | 4 | Inheritance | [INHERITANCE](INHERITANCE/) | Selesai |
 | 5 | Expense Tracker | [expense_tracker](expense_tracker/) | Selesai |
-| 6 | Overloading dan Overriding | [overloading-overriding](overloading-overriding/) | Selesai |
+| 6 | Overloading dan Overriding | [Overloading&Overriding](Overloading&Overriding/) | Selesai |
 | 7 | Polimorfisme | [Polimorfisme](Polimorfisme/) | Selesai |
 
 ## Catatan
