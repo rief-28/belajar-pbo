@@ -17,16 +17,20 @@ Repositori ini berisi tugas dan catatan belajar mata kuliah Pemrograman Berbasis
 | Constructor | Mengisi nilai awal atribut saat objek dibuat |
 | Encapsulation | Mengatur akses atribut dengan public, protected, dan private |
 | Inheritance | Mewarisi atribut dan method dari class induk |
+| Overloading dan Overriding | Memakai satu nama method untuk perilaku berbeda. Overloading lewat parameter yang berbeda. Overriding lewat method class turunan yang menimpa class induk |
+| Polimorfisme | Satu pemanggilan method menghasilkan perilaku berbeda sesuai kelas objeknya. Contoh dalam PHP, C++, dan Java |
 
 ## Struktur Folder
 
 ```
 belajar-pbo/
-├── oop/               Class dan Objek (Pertemuan 3)
-├── praktikum-04/      Konstruktor, destruktor dan Overloading (Pertemuan 4)
-├── praktikum-5/       Enkapsulasi (Pertemuan 5)
-├── INHERITANCE/       Inheritance dan CRUD dengan PHP Session (Pertemuan 6)
-├── expense_tracker/   Aplikasi pencatat pengeluaran (PHP OOP, SQLite) (Pertemuan 7)
+├── oop/                      Class dan Objek (Pertemuan 3)
+├── praktikum-04/             Konstruktor, destruktor dan Overloading (Pertemuan 4)
+├── praktikum-5/              Enkapsulasi (Pertemuan 5)
+├── INHERITANCE/              Inheritance dan CRUD dengan PHP Session (Pertemuan 6)
+├── expense_tracker/          Aplikasi pencatat pengeluaran (PHP OOP, SQLite) (Pertemuan 7-UTS)
+├── overloading-overriding/   Overloading dan Overriding (Pertemuan 8)
+├── Polimorfisme/             Polimorfisme dan CRUD Array (PHP, C++, Java) (Pertemuan 9)
 └── README.md
 ```
 
@@ -36,17 +40,17 @@ Nama folder di atas memakai huruf besar dan kecil yang sama dengan isi repositor
 
 Kebutuhan:
 
-- XAMPP dengan PHP 8.1 atau lebih baru
+- XAMPP atau Laragon dengan PHP 8.1 atau lebih baru
 - Git
 
 Langkah:
 
-1. Buka XAMPP Control Panel. Klik Start pada Apache. MySQL tidak perlu dinyalakan karena tidak ada tugas yang memakainya.
+1. Buka XAMPP Control Panel atau Laragon. Klik Start pada Apache. MySQL tidak perlu dinyalakan karena tidak ada tugas yang memakainya.
 
-2. Clone repositori ke folder htdocs.
+2. Clone repositori ke folder htdocs(XAMPP) dan www(Laragon).
 
 ```bash
-cd C:\xampp\htdocs
+cd C:\xampp\htdocs | cd C:\laragon\www
 git clone https://github.com/rief-28/belajar-pbo.git
 ```
 
@@ -64,6 +68,13 @@ Contoh: `http://localhost/belajar-pbo/expense_tracker/`
 - Butuh ekstensi PHP `pdo_sqlite` dan `mbstring`. Di XAMPP keduanya biasanya sudah aktif. Bila belum, halaman menampilkan pesan yang menyebut ekstensinya.
 - Langkah lengkap, cara menjalankan dengan server bawaan PHP, dan cara menjalankan tes ada di [expense_tracker/README.md](expense_tracker/README.md).
 
+### Catatan untuk Polimorfisme
+
+- `ex1.php` dan `P9_CRUD_Array/` berjalan di XAMPP ataupun Laragon. Contoh: `http://localhost/belajar-pbo/Polimorfisme/P9_CRUD_Array/`
+- `P9_CRUD_Array` menyimpan data di array dan session PHP, tanpa database.
+- `ex2.cpp` butuh `g++` dan `ex3.java` butuh JDK. Keduanya dijalankan lewat terminal, bukan XAMPP.
+- Langkah lengkap ada di [Polimorfisme/README.md](Polimorfisme/README.md).
+
 ## Daftar Tugas
 
 | No | Tugas | Folder | Status |
@@ -73,7 +84,10 @@ Contoh: `http://localhost/belajar-pbo/expense_tracker/`
 | 3 | Enkapsulasi | [praktikum-5](praktikum-5/) | Selesai |
 | 4 | Inheritance | [INHERITANCE](INHERITANCE/) | Selesai |
 | 5 | Expense Tracker | [expense_tracker](expense_tracker/) | Selesai |
+| 6 | Overloading dan Overriding | [overloading-overriding](overloading-overriding/) | Selesai |
+| 7 | Polimorfisme | [Polimorfisme](Polimorfisme/) | Selesai |
 
 ## Catatan
 
 Kode di repositori ini dibuat untuk keperluan belajar. Saran dan masukan terbuka lewat Issues.
+ 
