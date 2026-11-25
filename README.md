@@ -22,11 +22,11 @@ Repositori ini berisi tugas dan catatan belajar mata kuliah Pemrograman Berbasis
 
 ```
 belajar-pbo/
-├── oop/               Class dan Objek
-├── praktikum-04/      Konstruktor, destruktor dan Overloading
-├── praktikum-5/       Enkapsulasi
-├── INHERITANCE/       Inheritance dan CRUD dengan PHP Session
-├── expense_tracker/   Aplikasi pencatat pengeluaran (PHP OOP, SQLite)
+├── oop/               Class dan Objek (Pertemuan 3)
+├── praktikum-04/      Konstruktor, destruktor dan Overloading (Pertemuan 4)
+├── praktikum-5/       Enkapsulasi (Pertemuan 5)
+├── INHERITANCE/       Inheritance dan CRUD dengan PHP Session (Pertemuan 6)
+├── expense_tracker/   Aplikasi pencatat pengeluaran (PHP OOP, SQLite) (Pertemuan 7)
 └── README.md
 ```
 
